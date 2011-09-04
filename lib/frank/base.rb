@@ -63,7 +63,7 @@ module Frank
   module Render
 
     TMPL_EXTS = {
-      :html => %w[haml erb rhtml builder liquid textile md mkd markdown],
+      :html => %w[haml erb rhtml builder liquid textile md mkd markdown mustache],
       :css  => %w[sass less scss],
       :js   => %w[coffee]
     }
